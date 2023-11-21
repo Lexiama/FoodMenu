@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FoodMenu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div style="text-align: center">
+      <div style="border: 1px solid #000; display: inline-block; padding: 20px">
+        <label for="catergorySelect">Select a Category</label>
+        <br />
+        <select id="categorySelect">
+          <option value="" selected>Pick a Category</option>
+          <option value="drinks">Drinks</option>
+          <option value="entrees">Entrees</option>
+          <option value="desserts">Desserts</option>
+        </select>
+        <select id="selectMenu" size="10">
+          <option value="" selected>Select Option</option>
+
+        </select>
+      </div>
+    </div>
+
+    <script src="scripts/foodMenu.js"></script>
+  </body>
+</html>
